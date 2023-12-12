@@ -2,8 +2,8 @@ $(document).ready(function () {
     // Inicializar Typed.js
     var typed = new Typed('.typed', {
         strings: $('.typed').data('typed-items').split(','),
-        typeSpeed: 160,
-        backSpeed: 75,
+        typeSpeed: 50,
+        backSpeed: 50,
         backDelay: 2000,
         startDelay: 700,
         loop: true
