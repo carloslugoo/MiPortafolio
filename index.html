@@ -31,6 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre mi</a></li>
+                        <li class="nav-item"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume">Experiencia</a></li>
                         <li class="nav-item"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Proyectos</a></li>
                         <li class="nav-item"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contáctame</a></li>
                     </ul>
@@ -51,7 +52,6 @@
                         <!-- Masthead Heading-->
                         <h1 class="masthead-heading text-uppercase mb-0">Carlos Lugo</h1>
                         <p class="masthead-subheading font-weight-light mb-0">Soy <span class="typed" data-typed-items="Desarrollador de Software, Freelancer, Ingeniero en Informática"></span></p>
-                      
                         <!-- Icon Divider-->
                         <div class="divider-custom divider-light">
                             <div class="divider-custom-line"></div>
@@ -69,8 +69,8 @@
                 </div>
             </div>
         </header>
-         <!-- About Section-->
-         <section class="page-section bg-black text-white mb-0" id="about">
+        <!-- About Section-->
+        <section class="page-section bg-black text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Sobre mi</h2>
@@ -82,16 +82,72 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto">
-                        <p class="lead"> 🕵️ Soy desarrollador de software</p>
-                        <p class="lead"> 👨‍💻 Realizo mis propios proyectos y estoy enfocado en mi universidad.</p>
-                        <p class="lead"> 🌱 Me encuentro inmerso en bootcamps y programas de formación para potenciar mi perfil profesional.</p>
-                        <p class="lead"> 🎓 Me gustaría especializarme como desarrollador back-end o Ingeniero de Software. </p>
+                    <div class="col-lg-4 ms-auto about">
+                        <p class="lead text-start"> 🕵️ Desarrollador de Software y Freelancer.</p>
+                        <p class="lead"> 🎓 Cursando el último año de Ingeniería Informática, me gustaría enfocarme en áreas como Desarrollador Back-end o Ingeniería de Software.</p>
+                        <p class="lead"> 👨‍💻 Python Full Stack Web Developer (Flask/Django). Sin embargo, estoy en busca de aumentar mi tech stack.</p>
+                        <p class="lead"> 🌱 Me encuentro inmerso en programas de formación para potenciar mi perfil profesional.</p>
+                        <p class="lead"> 🤝 En busca de trabajo.</p>
                     </div>
                     <div class="col-lg-4 me-auto">
                         <img class="masthead-avatar mb-4" src="assets/img/pc.png" width="380px" height="380"/>
                     </div>
                 </div>
+        </div>
+        </section>
+    </section><!-- End Resume Section -->
+    <section class="resume page-section bg-black text-white mb-0" id="resume" >
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="page-section-heading text-uppercase text-white">Experiencia y Educación</h2>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="bi bi-briefcase"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+            <!-- ======= Resume Section ======= -->
+            <div class="row">
+                <div class="col-lg-8 ms-auto">
+                    <h3 class="resume-title">Experiencia Laboral</h3>
+                    <div class="resume-item">
+                        <h4>Desarrollador de Software</h4>
+                        <h5>2022 - 2023</h5>
+                        <p><em>Encarnación, Paraguay</em></p>
+                        <ul>
+                            <li>Realicé el análisis de requerimientos del sistema junto al cliente.</li>
+                            <li>Diseñé y planifiqué la plataforma, incluyendo bases de datos y casos de uso.</li>
+                            <li>Desarrollé las funcionalidades para cada rol (alumnos, docentes y director).</li>
+                            <li>Documenté el sistema, preparando el manual de usuario y la carpeta del proyecto.</li>
+                        </ul>
+                    </div>
+                    <h3 class="resume-title">Prácticas</h3>
+                    <div class="resume-item">
+                        <h4>Desarrollador de Software</h4>
+                        <h5>2023 - 2023</h5>
+                        <p><em>Encarnación, Paraguay</em></p>
+                        <ul>
+                            <li>Desarrollo de funcionalidades del sistema para cada tipo de usuario.</li>
+                            <li>Creación de interfaces de usuario.</li>
+                            <li>Gestión de base de datos.</li>
+                        </ul>
+                    </div>
+                </div>
+            <!-- Educación -->
+                <div class="col-lg-4 ms-auto">
+                    <h3 class="resume-title">Educación</h3>
+                    <div class="resume-item">
+                        <h4>Ingeniería Informática</h4>
+                        <h5>2019 - 2025</h5>
+                        <p><em>Universidad Católica Campus Itapuá, Paraguay</em></p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Ingeniería Web con Python</h4>
+                        <h5>2023</h5>
+                        <p><em>Desarrollo Joven Itapuá, Paraguay</em></p>
+                    </div>
+                </div>
+            </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
                     <a class="text-uppercase font-weight-bold bg-primary text-white rounded btn btn-xl" href="./assets/pdf/CV2023-ESP.pdf" download="./assets/pdf/CV2023-ESP.pdf">
@@ -99,8 +155,7 @@
                         Descargar CV
                     </a>
                 </div>
-            </div>
-        </section>
+    </section>
         <!-- Portfolio Section-->
         <section class="bg-black page-section portfolio" id="portfolio">
             <div class="container">
@@ -120,7 +175,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                           <center><img class="img-fluid" src="assets/img/portfolio/logo.png" alt="..." width="80%"/></center>
+                        <center><img class="img-fluid" src="assets/img/portfolio/logo.png" alt="..." width="80%"/></center>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
