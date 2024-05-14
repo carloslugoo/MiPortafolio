@@ -11086,3 +11086,14 @@ html {
   background: #fff;
   border: 2px solid #1ABC9C;
 }
+
+.fas.fa-heart:hover {
+  color: #f44336 !important;
+}
+
+.fas.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+.custom-icon{
+  color: #1ABC9C;
+}
