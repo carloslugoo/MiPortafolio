@@ -1,11 +1,31 @@
-# Mi Portafolio en la Web
-Un mini resumen en donde mostrar mis trabajos y quien soy.
-# Resultado
-![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/96fd6289-5103-4eaa-a413-f52f9369a70b)<br>
-![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/f4124c32-b939-448a-a92f-395a6119fb1c)<br>
-![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/e3a87929-8641-4f1b-b6e5-d0d3f9b87097)<br>
-![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/223801f5-6ea3-48da-bee1-a5ddf5868a69)<br>
-![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/8379d521-1505-4276-9d28-2986b209ebad)
+# Portafolio personal
+Este proyecto es un portafolio personal creado con Bootstrap. El diseño es responsivo, lo que garantiza que se vea bien en todos los dispositivos. Su propósito es mostrar mis habilidades, proyectos, experiencia profesional y una manera de contacto.
+## Tecnologías
+- HTML5: Utilizado para la estructura y contenido de la página.
+- CSS3: Utilizado para los estilos y diseño visual.
+- JavaScript: Utilizado para la interactividad y comportamiento dinámico.
+## Estructura del proyecto
+```bash
+.
+├── index.html
+├── css
+│   └── styles.css
+├── js
+│   └── script.js
+├── assets
+│  └── img
+│       └── (imágenes utilizadas en el proyecto)
+│  └── pdf
+│       └── micv.pdf
+└── README.md
+```
+# Resultados
+![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/c6c1949c-97e5-41e5-9623-bf8b07a86d93)<br>
+![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/6b91c0b8-d871-456e-a07b-d6d7d3b5739c)<br>
+![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/eea7d7d2-9934-43b5-8d18-3bbb4484cab6)<br>
+![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/972d93fa-3bdf-4a86-bf56-8afa16235555)<br>
+![image](https://github.com/carloslugoo/MiPortafolio/assets/112581880/ab4ff12c-d0e5-49b3-a3b1-5bb189356e09)
+
 
 
 
