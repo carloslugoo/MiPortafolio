@@ -482,8 +482,13 @@ progress {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  background: black;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
+
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
@@ -10970,7 +10975,9 @@ html {
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
+  font-weight: 600;
 }
+
 .masthead .masthead-avatar {
   width: 22rem;
 }
