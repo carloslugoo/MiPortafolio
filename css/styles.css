@@ -11171,3 +11171,38 @@ html {
   transform: scale(1.1);
   
 }
+
+.project-status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #1abc9c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Estado offline para proyectos */
+.project-status.offline {
+  background-color: #dc3545; /* rojo */
+  box-shadow: 0 4px 10px rgba(220,53,69,0.18);
+  transform: translateY(0);
+}
+.project-status.offline::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+.project-card { position: relative; overflow: hidden; }
+.project-card img.project-image-portrait {
+  display: block;
+  margin: 0 auto;
+  width: auto;           /* no forzar ancho si es imagen vertical */
+  max-width: 100%;       /* no salirse del contenedor */
+  max-height: 420px;     /* ajustar según diseño para evitar ampliaciones visibles */
+  object-fit: cover;     /* recorta centrado si el contenedor necesita mantener proporción */
+  image-rendering: -webkit-optimize-contrast; /* mejora ligera en algunos navegadores */
+}
