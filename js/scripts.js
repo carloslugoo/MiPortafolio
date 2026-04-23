@@ -54,4 +54,27 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // ========== ANIMACIONES CON INTERSECTION OBSERVER ==========
+    // Detectar cuando los elementos entran en el viewport
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    // Aplicar animaciones a elementos de scroll
+    const scrollElements = document.querySelectorAll('.page-section-heading, .project-card, .resume-item, .divider-custom');
+    scrollElements.forEach(element => {
+        element.classList.add('animate-on-scroll');
+        observer.observe(element);
+    });
+
 });
