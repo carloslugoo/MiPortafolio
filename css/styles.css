@@ -10940,7 +10940,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11217,6 +11217,137 @@ html {
 
 .fas.fa-share-alt:hover {
   color: #0d47a1 !important;
+}
+
+/* Contact Section Styles */
+.contact-content {
+  gap: 5rem;
+}
+
+.contact-image-wrapper {
+  min-height: 300px;
+}
+
+.contact-avatar {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  position: relative;
+  bottom: 15%;
+  left: 50%;
+}
+
+
+/* Contact Links Styling */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.contact-links li {
+  width: 100%;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 1.2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.contact-link i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(26, 188, 156, 0.1);
+  border-radius: 50%;
+  color: #1abc9c;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(26, 188, 156, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.contact-link:hover i {
+  background: rgba(26, 188, 156, 0.2);
+  color: #00d9a3;
+  transform: scale(1.1);
+}
+
+.contact-link span {
+  color: #ffffff;
+}
+
+/* Responsive Design for Contact Section */
+@media (max-width: 991px) {
+  .contact-content {
+    gap: 2rem;
+  }
+
+  .contact-image-wrapper {
+    order: -1;
+    min-height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .contact-links {
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-link {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .col-lg-6:last-child {
+    align-items: center !important;
+  }
+   .contact-avatar {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-links {
+    gap: 1rem;
+  }
+
+  .contact-link {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+
+  .contact-link i {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.1rem;
+  }
+
+  .contact-avatar {
+    display: none;
+  }
 }
 .custom-icon{
   color: #1ABC9C;
