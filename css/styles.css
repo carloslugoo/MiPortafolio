@@ -12011,7 +12011,7 @@ img[loading="lazy"] {
 }
 @media (max-width: 991px) {
   .about-intro { text-align: center; margin-left: auto; margin-right: auto; }
-  .about-list li { justify-content: center; text-align: center; }
+  .about-list li { justify-content: center; text-align: left; }
   .about-avatar { max-width: 240px; }
   .about-section { padding-left: 1rem; padding-right: 1rem; }
   .about-section .row { flex-direction: column; }
